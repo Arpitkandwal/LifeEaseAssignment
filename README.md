@@ -40,3 +40,15 @@ npm install
 
 Then Start The Client Side using "npm run dev"
 
+
+--USE THESE VALUES FOR .ENV FILE
+
+
+MONGO_URL=mongodb+srv://arpitkandwal2004:XPKOjBTQaxVyJIgs@cluster0.mx0jh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+
+
+TOKEN_SECRET=secret
+
+
+DOMAIN=http://localhost:3000
+
