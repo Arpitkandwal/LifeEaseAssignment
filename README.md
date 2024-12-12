@@ -44,7 +44,7 @@ Then Start The Client Side using "npm run dev"
 --USE THESE VALUES FOR .ENV FILE
 
 
-MONGO_URL=mongodb+srv://arpitkandwal2004:XPKOjBTQaxVyJIgs@cluster0.mx0jh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+MONGO_URL="YOUR MONGODB URL"
 
 
 TOKEN_SECRET=secret
