@@ -8,7 +8,7 @@ connect();
 export async function POST(req) {
     const userId = await getDataFromTOken(req)
 
-    const user = await User.findOne({_id: userId}).select("-password")
+    const user = await User.findOne({_id: userId}).select("password")
 
     return NextResponse.json({
         message: "User Found",
